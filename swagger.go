@@ -234,6 +234,11 @@ const indexTempl = `<!-- HTML for static distribution bundle build -->
       margin:0;
       background: #fafafa;
     }
+	.custom-image {
+      display: block;
+      margin: 20px auto;
+      width: 50%;
+    }
   </style>
 </head>
 
@@ -270,6 +275,8 @@ const indexTempl = `<!-- HTML for static distribution bundle build -->
     </symbol>
   </defs>
 </svg>
+
+<img src="https://static.swimlanes.io/a1e92146107897f4e39ec7390119e076.png" alt="Market Order Flow" class="market-order-flow-image">
 
 <div id="swagger-ui"></div>
 
